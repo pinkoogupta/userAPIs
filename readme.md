@@ -83,11 +83,15 @@ Nodemailer
 
 
 
-![alt text](<Screenshot (518).png>) ![alt text](<Screenshot (527).png>) ![alt text](<Screenshot (526).png>) ![alt text](<Screenshot (525).png>) ![alt text](<Screenshot (523).png>) ![alt text](<Screenshot (521).png>) ![alt text](<Screenshot (520).png>) ![alt text](<Screenshot (519).png>)
 
-
-
-
+![alt text](<Screenshot (518)-1.png>)
+![alt text](<Screenshot (519)-1.png>)
+![alt text](<Screenshot (520)-1.png>)
+![alt text](<Screenshot (521)-1.png>)
+![alt text](<Screenshot (523)-1.png>)
+![alt text](<Screenshot (525)-1.png>)
+![alt text](<Screenshot (526)-1.png>)
+![alt text](<Screenshot (527)-1.png>)
 
 
 
