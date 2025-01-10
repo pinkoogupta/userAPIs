@@ -3,6 +3,8 @@ import dotenv from 'dotenv';
 import sequelize from './db/db.js';
 import cors from 'cors';
 import cookiesParser from 'cookie-parser';
+import userRouter from "./routes/user.route.js";
+
 
 const app=express();
 
@@ -17,7 +19,7 @@ app.use(express.static("public"));
 app.use(cookiesParser());
 dotenv.config();
 
-const PORT =process.env.PORT || 6000;
+const PORT =process.env.PORT || 4500;
 
 // middleware
 app.use(express.json());
@@ -38,11 +40,16 @@ app.use(express.json());
 (async () => {
     try {
         await sequelize.sync();  //sync with server to sql
-        const PORT = 3000; 
-        app.listen(PORT, () => {
-            console.log(`Listening on port ${PORT}`);
+        // const PORT= 4000; 
+        app.listen(process.env.PORT, () => {
+            console.log(`Listening on port ${process.env.PORT}`);
         });
     } catch (error) {
         console.log(`Error with connection to the server:`, error);
     }
 })();
+
+
+
+//routes declaration
+app.use("/api/users",userRouter);
